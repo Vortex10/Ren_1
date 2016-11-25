@@ -8,6 +8,14 @@
     top: -85px !important;
     left: 0% !important;
 }
+.imagemproduto1 {
+    float: right;
+    position: relative;s
+    width: 20%;
+    margin-bottom: 20px;
+    top: -35px;
+    left: 0%;
+}
   .panel-body{
 
     margin-top: 10px;
