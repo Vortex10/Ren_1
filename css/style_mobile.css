@@ -1,0 +1,36 @@
+@media (max-width: 800px) {
+
+  ul.nav.navbar-nav.navbar-right {
+      font-size: 10px !important;
+      display:none;
+  }
+
+
+}
+@media (max-width: 1047px) {
+  ul.nav.navbar-nav.navbar-right {
+    font-size: 10px !important;
+}
+.overview .overview-wrapper-content {
+    position: relative;
+    float: left;
+    padding: 1% 6%;
+}
+img.arrowvideo {
+    position: absolute;
+    margin-top: 24% !important;
+    right: 1% !important;
+    float: right !important;
+    z-index: 1 !important;
+    height: 10% !important;
+    top:0% !important;
+}
+section.slideshow {
+    height: 0vh !important;
+}
+}
+@media (max-width: 862px) {
+  ul.nav.navbar-nav.navbar-right {
+    font-size: 9px !important;
+}
+}
