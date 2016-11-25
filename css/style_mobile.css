@@ -1,5 +1,14 @@
 
 @media (max-width: 1047px) {
+  img.arrowvideo {
+        position: absolute !important;
+        margin-top: 24% !important;
+        right: 1% !important;
+        float: right !important;
+        z-index: 1 !important;
+        height: 10% !important;
+        top:0% !important;
+    }
   .imagemproduto {
       float: right !important;
       position: relative !important;
@@ -28,15 +37,7 @@
     float: left;
     padding: 1% 6%;
 }
-img.arrowvideo {
-    position: absolute;
-    margin-top: 24% !important;
-    right: 1% !important;
-    float: right !important;
-    z-index: 1 !important;
-    height: 10% !important;
-    top:0% !important;
-}
+
 section.slideshow {
     height: 0vh !important;
 }
@@ -55,7 +56,7 @@ section.slideshow {
   }
 .mobileheader{
   display:none;
-  
+
 }
 
 }
