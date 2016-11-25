@@ -1,6 +1,6 @@
 
 @media (max-width: 1047px) {
-  imagemproduto {
+  .imagemproduto {
     float: right !important;
     position: relative !important;
     width: 20% !important;
@@ -10,13 +10,13 @@
 }
 .imagemproduto1 {
     float: right;
-    position: relative;s
+    position: relative;
     width: 20%;
     margin-bottom: 20px;
     top: -35px;
     left: 0%;
 }
-  .panel-body{
+  .panel-body img{
 
     margin-top: 10px;
     margin-bottom: 10px;}
@@ -54,5 +54,8 @@ section.slideshow {
       display:none;
   }
 
+
+}
+@media (max-width: 767px) {
 
 }
