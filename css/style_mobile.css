@@ -1,13 +1,17 @@
-@media (max-width: 800px) {
 
-  ul.nav.navbar-nav.navbar-right {
-      font-size: 10px !important;
-      display:none;
-  }
-
-
-}
 @media (max-width: 1047px) {
+  imagemproduto {
+    float: right !important;
+    position: relative !important;
+    width: 20% !important;
+    margin-bottom: 20px !important;
+    top: -85px !important;
+    left: 0% !important;
+}
+  .panel-body{
+
+    margin-top: 10px;
+    margin-bottom: 10px;}
   ul.nav.navbar-nav.navbar-right {
     font-size: 10px !important;
 }
@@ -33,4 +37,14 @@ section.slideshow {
   ul.nav.navbar-nav.navbar-right {
     font-size: 9px !important;
 }
+}
+
+@media (max-width: 800px) {
+
+  ul.nav.navbar-nav.navbar-right {
+      font-size: 10px !important;
+      display:none;
+  }
+
+
 }
